@@ -9,20 +9,18 @@
       
       
       
-        <link rel="prev" href="../..">
       
       
-      
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
       
-        <title>Лаб1 - Моя Документация</title>
+        <title>Задача 1: Различия между threading, multiprocessing и async в Python - Моя Документация</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.2afb09e1.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.2afb09e1.min.css">
       
       
 
@@ -41,7 +39,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -59,6 +57,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#1-threading-multiprocessing-async-python" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -71,7 +74,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Моя Документация" class="md-header__button md-logo" aria-label="Моя Документация" data-md-component="logo">
+    <a href="../../.." title="Моя Документация" class="md-header__button md-logo" aria-label="Моя Документация" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -91,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Лаб1
+              Задача 1: Различия между threading, multiprocessing и async в Python
             
           </span>
         </div>
@@ -169,7 +172,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Моя Документация" class="md-nav__button md-logo" aria-label="Моя Документация" data-md-component="logo">
+    <a href="../../.." title="Моя Документация" class="md-nav__button md-logo" aria-label="Моя Документация" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -187,7 +190,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -206,20 +209,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -235,7 +236,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Лабы
@@ -246,17 +247,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../lab1/" class="md-nav__link">
         
   
   
@@ -267,7 +261,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -280,7 +273,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../lab2.md" class="md-nav__link">
+      <a href="../../lab2.md" class="md-nav__link">
         
   
   
@@ -303,7 +296,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../lab3.md" class="md-nav__link">
+      <a href="../../lab3.md" class="md-nav__link">
         
   
   
@@ -333,7 +326,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../practices/index.md" class="md-nav__link">
+      <a href="../../../practices/index.md" class="md-nav__link">
         
   
   
@@ -365,6 +358,70 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Цель работы
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Задача
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Описание
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#async" class="md-nav__link">
+    <span class="md-ellipsis">
+      async
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#threading" class="md-nav__link">
+    <span class="md-ellipsis">
+      threading
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multiprocessing" class="md-nav__link">
+    <span class="md-ellipsis">
+      multiprocessing
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -380,9 +437,32 @@
 
 
 
-  <h1>Лаб1</h1>
-
-
+<h1 id="1-threading-multiprocessing-async-python">Задача 1: Различия между threading, multiprocessing и async в Python</h1>
+<h2 id="_1">Цель работы</h2>
+<p>Понять отличия между потоками, процессами и асинхронностью в Python.</p>
+<h2 id="_2">Задача</h2>
+<p>Напишите три различных программы на Python, использующие каждый из подходов: <code>threading</code>, <code>multiprocessing</code> и <code>async</code>. Каждая программа должна решить задачу подсчета суммы всех чисел от 1 до 10000000000000. Разделите вычисления на несколько параллельных задач для ускорения выполнения.</p>
+<h2 id="_3">Описание</h2>
+<p>Напишите программу на Python для каждого подхода: <code>threading</code>, <code>multiprocessing</code> и <code>async</code>.</p>
+<p>Каждая программа должна содержать функцию <code>calculate_sum()</code>, которая будет выполнять вычисления. Для <code>threading</code> используйте модуль <code>threading</code>, для <code>multiprocessing</code> - модуль <code>multiprocessing</code>, а для <code>async</code> - ключевые слова <code>async/await</code> и модуль <code>asyncio</code>.</p>
+<p>Каждая программа должна:
+- Разбить задачу на несколько подзадач.
+- Выполнить их параллельно.
+- Замерить время выполнения программы и сравнить результаты.</p>
+<p>Пример выполненого кода</p>
+<h2 id="async">async</h2>
+<p>Async sum: 5000000050000000
+Execution time: 0.7910861968994141 seconds</p>
+<h2 id="threading">threading</h2>
+<p>Total sum: 5000000050000000
+Execution time: 0.8023879528045654 seconds</p>
+<h2 id="multiprocessing">multiprocessing</h2>
+<p>Total sum: 5000000050000000
+Execution time: 0.4445979595184326 seconds</p>
+<h1 id="_4">Вывод</h1>
+<p>Multiprocessing — самый быстрый, так как процессы не ограничены GIL и могут полноценно использовать многозадачность, работая на разных ядрах.</p>
+<p>Async — второй по скорости, так как эффективно выполняет параллельные задачи без создания новых потоков или процессов, но ограничен задачами, не требующими больших вычислений.</p>
+<p>Threading — самый медленный, потому что потоки в Python ограничены GIL и не могут эффективно использовать несколько ядер процессора для вычислительно тяжелых задач.</p>
 
 
 
@@ -431,10 +511,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>
