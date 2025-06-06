@@ -67,7 +67,6 @@ class Goal(SQLModel, table=True):
 
     user: Optional[User] = Relationship(back_populates="goals")
 
-    # Связь через промежуточную модель GoalNotification
     notifications: List["GoalNotification"] = Relationship(back_populates="goal")
 
 
